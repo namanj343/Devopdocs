@@ -1,0 +1,30 @@
+ps -ef | head -5: use to print top 5 number of process
+echo $?: How to check that previous script has run successfully.
+find .(for current directory) -type -f -mtime -3(no of days) -exec ls -l > last3days.txt
+Used for word Count in a file:
+grep -o -i <searchkeyword> <filenamewherew> | wc -l
+
+--------------
+navbar-expand-lg
+
+#sub-dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  margin-left: 1206px;
+  margin-top: 26px;
+}
+#sub-dropdown-menu a, .dropdown-menu a{
+    color: #000 !important;
+    font-size: 16px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.dropdown .dropdown-menu a:hover{
+    background-color: #c9c7c7;
+}
+#sub-dropdown:hover #sub-dropdown-menu{
+    display: block;
+}

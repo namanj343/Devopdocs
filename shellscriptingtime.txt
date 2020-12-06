@@ -1,0 +1,5 @@
+convert current time into epoch time i.e. system time
+Estimated Time:date +%s -d"2015-02-01 00:00:00"
+>1422748800
+Current Time:date +%s
+1602240579

@@ -1,0 +1,4 @@
+Difference b/w stateful and stateless application?
+The Applications which is used to store the data to keep the track of his state into database are called as stateful.
+The Applications which is do - not  store the data to keep the track of his state and each request are handled as a completely new request i.e front-end applications is known as stateless.
+Therefore the application which doesn't maintain the state of application are deployed using Deployment. and application which can maintain the state of application deployed using statefulset. 
